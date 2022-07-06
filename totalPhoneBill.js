@@ -1,0 +1,14 @@
+function totalPhoneBill(phoneBill) {
+    var total = 0;
+    var bill = phoneBill.split(', ');
+    for (var i = 0; i < bill.length; i++) {
+        if (bill[i] === 'call') {
+        total += 2.75;
+        } else if (bill[i] === 'sms') {
+        total += 0.65;
+        }
+    }
+    return 'R' + total.toFixed(2);
+    };
+
+export default totalPhoneBill;
