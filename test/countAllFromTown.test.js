@@ -8,7 +8,7 @@ describe("Count all from town", function(){
        assert.equal(fromStellies, 3)
     });
     it("should return the number of registration numbers from Kuilsriver", function(){
-        var fromKuilsriver = AllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CY');
+        var fromKuilsriver = countAllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CY');
          assert.equal(fromKuilsriver, 1)
         });
         
