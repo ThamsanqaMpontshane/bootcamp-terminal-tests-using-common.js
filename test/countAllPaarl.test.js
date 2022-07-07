@@ -1,5 +1,7 @@
-import assert from 'assert';
-import allPaarl from '../countAllPaarl.js';
+// import assert from 'assert';
+// import allPaarl from '../countAllPaarl.js';
+var assert = require('assert');
+var allPaarl = require('../countAllPaarl.js');
 
 describe('allPaarl', function(){
 

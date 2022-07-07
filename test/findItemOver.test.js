@@ -1,6 +1,7 @@
-import assert from 'assert';
-import findItemsOver from '../findItemOver.js';
-// import findItemsOver20 from '../findItemOver.js';
+// import assert from 'assert';
+// import findItemsOver from '../findItemOver.js';
+var assert = require('assert');
+var findItemsOver = require('../findItemOver.js');
 describe("FindItemsOver", function() {
     var itemList = [
         {name : 'apples', qty : 10},

@@ -1,4 +1,4 @@
-function mostProfitableDepartment(salesData) {
+module.exports = function(salesData) {
     var departments = {};
     var departmentSales = [];
     var mostProfitableDepartment;
@@ -43,4 +43,4 @@ function mostProfitableDepartment(salesData) {
     return mostProfitableDepartment;
 }
 
-export default mostProfitableDepartment;
+// export default mostProfitableDepartment;

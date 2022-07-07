@@ -1,4 +1,4 @@
-var transportFee = function(shift){
+module.exports = function(shift){
     //let result;
     if(shift === 'morning'){
       return "R20";
@@ -9,4 +9,4 @@ var transportFee = function(shift){
   }
   };
 
-  export default transportFee;
+  // export default transportFee;

@@ -1,5 +1,8 @@
-import assert from 'assert';
-import regCheck from '../regCheck.js';
+// import assert from 'assert';
+// import regCheck from '../regCheck.js';
+
+var assert = require('assert');
+var regCheck = require('../regCheck.js');
 describe("RegCheck", function() {
 
 

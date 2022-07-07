@@ -1,5 +1,8 @@
-import assert from "assert";
-import greet from "../greet.js";
+// import assert from "assert";
+// import greet from "../greet.js";
+
+var assert = require("assert");
+var greet = require("../greet.js");
 
 describe("Greet", function() {
     it("should return 'Hello, John'", function() {

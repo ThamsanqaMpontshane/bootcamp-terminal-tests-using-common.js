@@ -1,5 +1,8 @@
-import assert from 'assert';
-import mostProfitableDepartment from '../mostProfitableDepartment.js';
+// import assert from 'assert';
+// import mostProfitableDepartment from '../mostProfitableDepartment.js';
+
+var assert = require('assert');
+var mostProfitableDepartment = require('../mostProfitableDepartment.js');
 describe("Most Profitable Department", function() {
     var salesData = [
         {department : 'hardware', sales : 4500, day : 'Monday'},

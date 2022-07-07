@@ -1,4 +1,4 @@
-function fromWhere(carReg){
+module.exports = function(carReg){
     if(carReg.startsWith('CY')){
       return 'Bellville';
     }else if(carReg.startsWith('CJ')){
@@ -10,4 +10,4 @@ function fromWhere(carReg){
       }
   }
 
-  export default fromWhere;
+  // export default fromWhere;

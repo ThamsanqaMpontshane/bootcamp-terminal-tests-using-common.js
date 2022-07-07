@@ -1,6 +1,6 @@
 //const regNumbers = 'CL 900, CJ 678 543, CA 34567, CJ 67890, CN 7864';
 //var regNumbersForPaarl = allPaarl(regNumbers);
-function allPaarl(regNumbers) {
+module.exports = function(regNumbers) {
     const regNumbersForPaarl = [];
      const products = regNumbers.split(',');
      
@@ -16,4 +16,4 @@ function allPaarl(regNumbers) {
      return regNumbersForPaarl;
     };
 
-    export default allPaarl;
+    // export default allPaarl;

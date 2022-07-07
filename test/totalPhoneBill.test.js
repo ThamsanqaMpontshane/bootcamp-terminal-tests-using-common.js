@@ -1,5 +1,7 @@
-import assert from 'assert';
-import totalPhoneBill from '../totalPhoneBill.js';
+// import assert from 'assert';
+// import totalPhoneBill from '../totalPhoneBill.js';
+var assert = require('assert');
+var totalPhoneBill = require('../totalPhoneBill.js');
 describe("TotalPhoneBill", function() {
 
     it("should return the total of R7.45", function() {

@@ -1,4 +1,4 @@
-function countAllFromTown(regNo, town) {
+module.exports = function(regNo, town) {
     var regNoArray = regNo.split(',');
     var count = 0;
     for (var i = 0; i < regNoArray.length; i++) {
@@ -9,4 +9,3 @@ function countAllFromTown(regNo, town) {
     return count;
    }
    
-export default countAllFromTown;

@@ -1,5 +1,7 @@
-import assert from 'assert';
-import transportFee from '../transportFee.js';
+// import assert from 'assert';
+// import transportFee from '../transportFee.js';
+var assert = require('assert');
+var transportFee = require('../transportFee.js');
 
 describe("TransportFee", function() {
        

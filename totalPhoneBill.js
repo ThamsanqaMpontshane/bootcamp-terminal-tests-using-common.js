@@ -1,4 +1,4 @@
-function totalPhoneBill(phoneBill) {
+module.exports = function(phoneBill) {
     var total = 0;
     var bill = phoneBill.split(', ');
     for (var i = 0; i < bill.length; i++) {
@@ -11,4 +11,4 @@ function totalPhoneBill(phoneBill) {
     return 'R' + total.toFixed(2);
     };
 
-export default totalPhoneBill;
+// export default totalPhoneBill;

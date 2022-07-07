@@ -1,5 +1,7 @@
-import assert from 'assert';
-import fromWhere from '../fromWhere.js';
+// import assert from 'assert';
+// import fromWhere from '../fromWhere.js';
+var assert = require('assert');
+var fromWhere = require('../fromWhere.js');
 describe("FromWhere", function() {
 
     describe("Bellville", function() {

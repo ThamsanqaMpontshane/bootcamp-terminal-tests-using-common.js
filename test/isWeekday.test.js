@@ -1,5 +1,8 @@
-import assert from 'assert';
-import isWeekday from '../isWeekday.js';
+// import assert from 'assert';
+// import isWeekday from '../isWeekday.js';
+
+var assert = require('assert');
+var isWeekday = require('../isWeekday.js');
 describe ("isWeekday", function() {
     it("should return true if the day starts with either of these letters M, T, W ,F", function() {
         assert.equal(isWeekday("Monday"),true);
