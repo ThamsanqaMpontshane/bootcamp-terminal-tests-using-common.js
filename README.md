@@ -1,1 +1,1 @@
-[![Node.js CI](https://github.com/ThamsanqaMpontshane/Bootcamp_Functions_Terminal_Test/actions/workflows/node.js.yml/badge.svg)](https://github.com/ThamsanqaMpontshane/Bootcamp_Functions_Terminal_Test/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/ThamsanqaMpontshane/bootcamp-terminal-tests/actions/workflows/node.js.yml/badge.svg)](https://github.com/ThamsanqaMpontshane/bootcamp-terminal-tests/actions/workflows/node.js.yml)
